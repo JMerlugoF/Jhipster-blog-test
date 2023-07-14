@@ -1,0 +1,22 @@
+{
+  "applications": "*",
+  "changelogDate": "20230714192708",
+  "entityTableName": "blog",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength"],
+      "fieldValidateRulesMinlength": "3"
+    },
+    {
+      "fieldName": "handle",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength"],
+      "fieldValidateRulesMinlength": "2"
+    }
+  ],
+  "name": "Blog",
+  "relationships": [],
+  "searchEngine": "no"
+}
